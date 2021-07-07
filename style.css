@@ -1,0 +1,17 @@
+html{
+    background-color: aqua;
+}
+picture{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+}
+img{
+    box-shadow: 0 0 15 px #999;
+    border-radius: 50px;
+    width: 100px;
+}
+img.disabled {
+    opacity: .3;
+}
